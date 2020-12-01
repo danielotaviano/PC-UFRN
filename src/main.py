@@ -27,8 +27,6 @@ for i,e in enumerate(argv):
 if (not outputNameFile):
   outputNameFile = 'sort_{a}'.format(a = inputNameFile)
 
-
-
 names = []
 
 f = open(inputNameFile,'r')
